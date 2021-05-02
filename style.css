@@ -1,0 +1,268 @@
+*{box-sizing: border-box;margin: 0;}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom: 0.5rem;
+}
+
+h1{
+	font-size: 2.5rem;
+	 font-weight: 500;
+}
+h2{
+	font-size: 2rem;
+	font-weight: 400;
+}
+h4{
+	font-weight: 200;
+	font-size: 1.5rem;
+}
+
+body{
+	font-family: sans-serif;
+	color:#262626;
+	background: #e5e0e6c9;
+}
+
+.container{
+	width: 100%;
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+header{
+	padding: 30px;
+
+}
+
+header .logo{
+	float: left;
+	color: #666;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+header .big-title{
+	color:#fff;
+	display: inline-block;
+	font-weight: 900;
+	text-shadow: 0 0 6px rgba(0,0,0,1);
+}
+
+header .scocial-icon{
+	padding: 15px 0px;
+	float: right;
+}
+header .scocial-icon a{
+	color:#fff;
+	padding: 10px;
+	font-size: 20px;
+	background: dodgerblue;
+	transition: 0.1s;
+}
+
+header .scocial-icon a:hover {
+	background: #4d5965;
+}
+
+
+
+
+
+
+nav{
+	overflow: hidden;
+	background: black;
+}
+
+nav a{
+	color: #fff;
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	transition: 0.2s;
+}
+
+nav .active{
+	background: dodgerblue;
+}
+nav a:hover {
+	background: dodgerblue;
+}
+
+nav .search:hover {background: black;}
+nav .search{
+	float: right;
+	padding: 0;
+	padding-top: 5px;
+}
+nav a input[type=search]{
+	padding: 8px 10px;
+	display: block;
+}
+
+
+
+article{
+	float: left;
+	width: 75%;
+}
+
+aside{
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+.wrapper:after , .row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.card{
+	padding: 15px;
+	margin-bottom: 20px;
+	background: #fff;
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 8%);
+}
+.card .card-title{
+	background: #ddd;
+	color: dodgerblue;
+	padding: 4px 10px;
+}
+
+article .card picture, aside .card picture{
+	width: 50%;
+	float: left;
+}
+
+article .card  .content , aside .card .content {
+	width: 50%;
+	float: left;
+	padding-left: 15px; 
+}
+
+
+article .card .content .post-meta {
+	color: gray;
+	margin:10px 0px;
+}
+
+article .card .post-title{
+	color: #222b33;
+	text-decoration: none;
+}
+
+.comments{width: 70%;margin-top: 20px;}
+.comments input,textarea{
+	padding: 5px 10px;
+	margin-bottom: 8px;
+}
+
+input[type=text],input[type=email]{
+	width: 49%;
+}
+textarea{width: 100%}
+
+
+aside .category{
+	padding-left: 0;
+	list-style: none;
+}
+aside .category li a{
+	padding: 8px;
+	display: block;
+	text-decoration: none;
+	color: dodgerblue;
+	border-bottom: 1px solid #ddd;
+}
+
+aside .card .row picture{
+	width: 25%;
+}
+
+aside .card .row .content{
+	width: 75%;
+	margin-bottom: 10px;
+}
+
+aside .follow-us li{
+	padding: 5px;
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+}
+
+aside .follow-us li a{
+	text-decoration: none;
+	color:#292929;
+}
+aside .follow-us li a .fa{
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+footer{
+	padding-top: 25px;
+}
+footer .widget{
+	float: left;
+	width: 33.33%;
+	list-style: none;
+	padding: 15px;
+}
+
+footer .widget li{
+	padding: 10px;
+}
+
+
+
+
+
+footer{
+	color: #fff;
+	padding: 10px;
+	background: black;
+	min-height: 300px;
+}
+
+.index-temp{
+	height: 400px;
+}
+.index-temp .one{
+	float: left;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	
+}
+
+.index-temp .two{
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding-left: 10px;
+	position: relative;
+	
+}
+
+.index-temp .content{
+	color: #fff;
+	top:100px;
+	width: 80%;
+	padding-left: 20px;
+	position: absolute;
+	
+}
+
+.index-temp .content .readmore{
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+	background: #8d3fb5;
+	border-radius: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+
+
